@@ -10,5 +10,5 @@ A Makefile is included in the repo with the necessary flags, and it will work on
 
 Run the compiled program with no arguments to test the module with the in-built tests:
 
-- './lists'
+- `./lists`
 
