@@ -1,6 +1,6 @@
 # Lists
 
-A reusable C library for module for doubly linked lists. The modulee is not thread safe. The header is set up to store int values in lists, but item is used as a synonym for int everywhere, so that there is only one place where a change would need to be made to store some other type of items. This means the module can be used with different item types in different programs, but it is not truly generic. It cannot be used multiple times for different item types in the same program. There is no really satisfying way of making fully generic modules in C.
+A reusable C library for module for doubly linked lists.
 
 ## Install
 
@@ -12,3 +12,7 @@ Run the compiled program with no arguments to test the module with the in-built 
 
 - `./lists`
 
+## Notes
+
+- The module is not thread safe. 
+- The header is set up to store `int` values in lists, but `item` is used as a synonym for `int` everywhere, so that there is only one place where a change would need to be made to store some other type of items. This means the module can be used with different item types in different programs, but it is not truly generic. It cannot be used multiple times for different item types in the same program. There is no really satisfying way of making fully generic modules in C.
