@@ -1,7 +1,3 @@
-// Testing for the lists module. Strings are used to describe lists. The strings
-// "|37", "3|7", "37|" represent a list of two items, with the current position
-// at the start, middle or end.
-
 #include "lists.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -240,6 +236,10 @@ static bool check(char *op, char *lb, char *la, item x, item y, bool b) {
     freeList(l);
     return strcmp(s, la) == 0;
 }
+
+// Testing for the lists module. Strings are used to describe lists. The strings
+// "|37", "3|7", "37|" represent a list of two items, with the current position
+// at the start, middle or end.
 
 // Test newList, freeList.
 static void test1() {
